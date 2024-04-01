@@ -36,7 +36,7 @@ def enviar_email(archivo_adjunto,receptores, puesto, asunto):
         saludo = "Buenos Dias"
     else:
         saludo = "Buenas Tardes"
-    emisor = 'gustavoboadalugo@gmail.com'  # Cambia esto por tu dirección de correo Gmail
+    emisor = st.secrets["Correo"]   # Cambia esto por tu dirección de correo Gmail
     clave = st.secrets["Clave"] 
  # Cambia esto por tu contraseña de correo Gmail
     cuerpo_html = f"""
