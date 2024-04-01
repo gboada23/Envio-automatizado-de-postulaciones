@@ -7,8 +7,7 @@ import time
 import streamlit as st
 st.set_page_config(
     page_title="ENVIO DE CV PERSONAL ",
-    page_icon="📎",
-    layout="wide")
+    page_icon="📎")
 def variables_entrada():
 # Breve descripción o instrucción para el usuario
     col1, col2 ,col3 = st.columns((1,5,1))
