@@ -5,7 +5,10 @@ import pandas as pd
 from datetime import datetime
 import time
 import streamlit as st
-
+st.set_page_config(
+    page_title="ENVIO DE CV PERSONAL ",
+    page_icon="📎",
+    layout="wide")
 def variables_entrada():
 # Breve descripción o instrucción para el usuario
     col1, col2 ,col3 = st.columns((1,5,1))
